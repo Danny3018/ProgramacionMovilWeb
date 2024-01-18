@@ -1,0 +1,154 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://media.istockphoto.com/id/1257005098/photo/hd-wallpaper-for-mobile-phones.jpg?s=170667a&w=0&k=20&c=E7OoX-_NAU7e9TgYvG9nA7_R6L52_yYtoMJ7P8akVjg=);
+    padding: 100px;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333;
+  
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
+#enviar {
+    width:20% ;
+    padding: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+    top: -45px; left: 5px;
+}
+#actualizar {
+    width:26% ;
+    padding: 5px;
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+    top: 3px; left: 100px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+
+}
+
+
+input[type="reset"]{
+    padding: 5px;
+    margin-right: 10px;
+    top: 2px; left: 85px;
+    background-color: #fb0404;
+    color: #ffffff;
+}
+input[type="reset"]:hover{
+    color: #fb0404;
+}
+
+.btnBorrarCon{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.btnBorrar{
+
+    color: #ffffff;
+    background-color: #fb0404;
+    border-radius: 25px;
+    border-color: #fb0404;
+    width: 200px;
+    height: 30px;
+
+}
+
+.btnBorrar:hover {
+
+    color: #ffffff;
+    background-color: #fb0404 !important; 
+    border-radius: 25px;
+    border-color: #fb0404;
+    width: 200px;
+    height: 30px;
+
+}
+
+
+.contTabla{
+
+   display: flex; 
+   justify-content: center;
+}
+
+
+
+.content-table{
+
+ background-color: aliceblue;
+ border-collapse: collapse;
+
+
+
+}
+
+th, td{
+    padding: 21px;
+    text-align: center;
+
+}
+
+thead{
+    background-color: #ab0c0ce1;
+    color:#ffffff; 
+    border-bottom: solid 5px;
+    text-align: center;
+ 
+    
+}
+
+tr:nth-child(even){
+    background-color: #665ef192;
+}
+
+
+
